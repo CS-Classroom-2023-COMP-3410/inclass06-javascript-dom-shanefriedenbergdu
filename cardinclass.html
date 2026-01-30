@@ -1,0 +1,72 @@
+<html>
+
+<head>
+  <script src="/cardinclass.js" defer></script>
+  <style>
+      body {
+                display: flex;
+                width: 100%;
+                justify-content: center;
+            }
+            div {
+                font-size: 200px;
+                display: inline-block;
+            }
+            #cardGrid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-template-rows: 200px 200px 200px 200px;
+            }
+            #cardGrid > div {
+            font-size: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          #timer {
+            
+            font-size: 18px;
+            
+            border: 10px;
+           
+          }
+            #resetBtn {
+            
+              
+            }
+            #moves {
+              padding-top:200px;
+      
+              font-size: 20px;
+            }
+  </style>
+</head>
+
+<body>
+  <div id="game">
+    <div id="moves">Moves: 0</div>
+    <span id="timer">Time: 0.0s</span>
+    <button id="resetBtn">Reset</button>
+    <div id="cardGrid">
+      <div id="card-0">&#127136;</div>
+      <div id="card-1">&#127136;</div>
+      <div id="card-2">&#127136;</div>
+      <div id="card-3">&#127136;</div>
+      <div id="card-4">&#127136;</div>
+      <div id="card-5">&#127136;</div>
+      <div id="card-6">&#127136;</div>
+      <div id="card-7">&#127136;</div>
+      <div id="card-8">&#127136;</div>
+      <div id="card-9">&#127136;</div>
+      <div id="card-10">&#127136;</div>
+      <div id="card-11">&#127136;</div>
+      <div id="card-12">&#127136;</div>
+      <div id="card-13">&#127136;</div>
+      <div id="card-14">&#127136;</div>
+      <div id="card-15">&#127136;</div>
+    </div>
+    
+  </div>
+</body>
+
+</html>
